@@ -14,10 +14,10 @@ Sample Input 1:
 Sample Output 1:
 YES
 */
-package zad2;
+package zad002;
 import java.util.Scanner;
 
-public class Program {
+public class Program2 {
     public static void main(String[] args) {
         Scanner iScanner = new Scanner(System.in);
         System.out.printf("int n: ");
@@ -27,7 +27,6 @@ public class Program {
         System.out.printf("int k: ");
         int k = iScanner.nextInt();
         iScanner.close();
-        int count = 0;
         if (k < n * m && k % n == 0 || k % m == 0) {
             System.out.println("Yes");
         } else {

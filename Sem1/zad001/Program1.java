@@ -1,4 +1,4 @@
-package zad1;
+package zad001;
 
 /* Улитка ползёт по вертикальному шесту высотой h метров, поднимаясь за день на a метров,
  а за ночь спускаясь на b метров. На какой день улитка доползёт до вершины шеста?
@@ -13,7 +13,7 @@ Sample Output 1:
 */
 import java.util.Scanner;
 
-public class Program {
+public class Program1 {
     public static void main(String[] args) {
         Scanner iScanner = new Scanner(System.in);
         System.out.printf("int h: ");

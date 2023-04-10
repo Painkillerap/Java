@@ -11,11 +11,11 @@
 // 4
 // 1
 // 3
-package zad6;
+package zad006;
 
 import java.util.Scanner;
 
-public class Program {
+public class Program6 {
     public static void main(String[] args) {
         Scanner iScanner = new Scanner(System.in);
         System.out.printf("cnt: ");
@@ -29,6 +29,7 @@ public class Program {
                 sum += array[i];
             }
         }
+        iScanner.close();
         System.out.println("\n" + sum);
         for (int i = 0; i < array.length; i++) {
             if (i % 2 == 0) {

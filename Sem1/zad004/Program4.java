@@ -6,10 +6,10 @@
 // Sample Output:
 // 120
 
-package zad4;
+package zad004;
 
 import java.util.Scanner;
-public class Program {
+public class Program4 {
 public static int factor(int n) {
     if(n==1 || n==0)return 1;
     return n * factor(n-1);

@@ -11,9 +11,9 @@
 // 20
 // Sample Output:
 // 9
-package zad3;
+package zad003;
 import java.util.Scanner;
-public class Program {
+public class Program3 {
     public static void main(String[] args) {
         Scanner iScanner = new Scanner(System.in);
         System.out.printf("int x: ");

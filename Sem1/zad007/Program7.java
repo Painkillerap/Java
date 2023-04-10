@@ -17,15 +17,15 @@
 // 1
 
 
-package zad7;
+package zad007;
 import java.util.Scanner;
 
-public class Program {
+public class Program7 {
     public static void main(String[] args) {
         Scanner iScanner = new Scanner(System.in);
         System.out.printf("cnt: ");
         int cnt = iScanner.nextInt();
-        // iScanner.close();
+        iScanner.close();
         int[] array = new int[cnt];
         for (int i = 0; i < array.length; i++) {
             array[i] = iScanner.nextInt();

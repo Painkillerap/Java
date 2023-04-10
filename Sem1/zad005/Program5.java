@@ -19,9 +19,9 @@
 // 6
 // 4
 // 2
-package zad5;
+package zad005;
 import java.util.Scanner;
-public class Program {
+public class Program5 {
     public static void main(String[] args) {
         Scanner iScanner = new Scanner(System.in);
         System.out.printf("int a: ");
