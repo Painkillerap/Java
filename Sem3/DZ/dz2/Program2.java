@@ -1,3 +1,4 @@
+// Пусть дан произвольный список целых чисел, удалить из него чётные числа
 package Java.Seminar.Sem3.DZ.dz2;
 import java.util.*;
 public class Program2 {
